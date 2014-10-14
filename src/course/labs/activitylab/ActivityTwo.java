@@ -26,6 +26,10 @@ public class ActivityTwo extends Activity {
 	// mCreate, mRestart, mStart and mResume 	
 	// to count calls to onCreate(), onRestart(), onStart() and
 	// onResume(). These variables should not be defined as static.
+	private Integer mCreate = 0;
+	private Integer mRestart = 0;
+	private Integer mStart = 0;
+	private Integer mResume = 0;
 	
 	// You will need to increment these variables' values when their
 	// corresponding lifecycle methods get called.
