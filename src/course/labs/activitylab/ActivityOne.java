@@ -170,6 +170,12 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Save state information with a collection of key-value pairs
 		// 4 lines of code, one for every count variable
+		savedInstanceState.putInt(RESTART_KEY, mRestart);
+		savedInstanceState.putInt(RESUME_KEY, mResume);
+		savedInstanceState.putInt(START_KEY, mStart);
+		savedInstanceState.putInt(CREATE_KEY, mCreate);
+
+		super.onSaveInstanceState(savedInstanceState);
 
 	}
 
